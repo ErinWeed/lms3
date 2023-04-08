@@ -19,8 +19,8 @@ function App() {
           }
         >
           <Route index element={<Home />} />
-          <Route path="teams" element={<Teams />} />
-          <Route path="*" element={<NoMatch />} />
+          <Route path="/teams" element={<Teams />} />
+          <Route path="/*" element={<NoMatch />} />
         </Route>
       </Routes>
     </div>
