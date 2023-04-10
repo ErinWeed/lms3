@@ -3,7 +3,7 @@ import Footer from './footer.component';
 import { Outlet } from 'react-router';
 import Aside from './aside.component';
 
-const Layout = ({ title, slides }) => {
+const Layout = ({ title }) => {
   return (
     <>
       <Header title={title} />
