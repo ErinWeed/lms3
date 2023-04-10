@@ -16,6 +16,7 @@ const Footer = () => {
                   className="link-light"
                   href="https://shop.floretflowers.com/collections/books/products/cut-flower-garden-signed-copy"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Cut Flower Garden
                 </a>
@@ -25,6 +26,7 @@ const Footer = () => {
                   href="https://thegardenersworkshop.com/product/book-cool-flowers-by-lisa-mason-ziegler/"
                   className="link-light"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Cool Flowers
                 </a>
@@ -34,6 +36,7 @@ const Footer = () => {
                   href="https://www.amazon.com/Complete-Gardener-Monty-Don/dp/1405342706/ref=sr_1_20"
                   className="link-light"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   The Complete Gardener
                 </a>
@@ -43,6 +46,7 @@ const Footer = () => {
                   href="https://www.amazon.com/DIY-Hydroponic-Gardens-Inexpensive-Growing/dp/0760357595/ref=sr_1_3"
                   className="link-light"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   DIY Hydroponic Gardens
                 </a>
@@ -52,6 +56,7 @@ const Footer = () => {
                   href="https://www.amazon.com/Aquaponic-Gardening-Step-Step-Vegetables/dp/086571701X/ref=sr_1_3"
                   className="link-light"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Aquaponic Gardening
                 </a>
@@ -66,6 +71,7 @@ const Footer = () => {
                   href="https://www.millcreekgardens.com/"
                   className="link-light"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Millcreek Gardens
                 </a>
@@ -75,6 +81,7 @@ const Footer = () => {
                   href="https://glovernursery.com/"
                   className="link-light"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Glover Nursery
                 </a>
@@ -84,6 +91,7 @@ const Footer = () => {
                   href="https://www.cactusandtropicals.com/"
                   className="link-light"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Cactus &amp; Tropicals
                 </a>
@@ -93,6 +101,7 @@ const Footer = () => {
                   href="https://westerngardens.com/"
                   className="link-light"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Western Garden Cetners
                 </a>
@@ -102,6 +111,7 @@ const Footer = () => {
                   href="https://www.moonlightgardensupply.com/"
                   className="link-light"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Moonlight Garden Supply
                 </a>
@@ -111,6 +121,7 @@ const Footer = () => {
                   href="https://utahwatergardens.com/"
                   className="link-light"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Utah Water Gardens
                 </a>
@@ -125,6 +136,7 @@ const Footer = () => {
                   href="https://www.redbuttegarden.org/"
                   className="link-light"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Red Butte Garden
                 </a>
@@ -134,6 +146,7 @@ const Footer = () => {
                   href="https://thanksgivingpoint.org/attractions-tickets/ashton-gardens/"
                   className="link-light"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Thanksgiving Point Gardens
                 </a>
@@ -143,6 +156,7 @@ const Footer = () => {
                   href="https://conservationgardenpark.org/"
                   className="link-light"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Conservation Garden Park
                 </a>
@@ -152,6 +166,7 @@ const Footer = () => {
                   href="https://www.butchartgardens.com/"
                   className="link-light"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Butchart Gardens
                 </a>
@@ -163,7 +178,7 @@ const Footer = () => {
         <p className="text-center py-3">© 2023 Weed Gardens</p>
       </div>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

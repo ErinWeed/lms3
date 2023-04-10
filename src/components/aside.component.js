@@ -21,6 +21,7 @@ const Aside = () => {
             href="https://www.amazon.com/Ladbrooke-Genuine-Micro-Block-Maker/dp/B01D5OMBLI/ref=sr_1_9"
             className="link-light"
             target="_blank"
+            rel="noreferrer"
           >
             Soil Blocker
           </a>
@@ -30,6 +31,7 @@ const Aside = () => {
             href="https://www.amazon.com/dp/B019ETLC7M/ref=sspa_dk_detail_1"
             target="_blank"
             className="link-light"
+            rel="noreferrer"
           >
             Grow Lights
           </a>
@@ -39,6 +41,7 @@ const Aside = () => {
             href="https://www.amazon.com/Felco-F-2-Classic-Manual-Pruner/dp/B00023RYS6/ref=sr_1_4?"
             className="link-light"
             target="_blank"
+            rel="noreferrer"
           >
             Pruners
           </a>
@@ -48,6 +51,7 @@ const Aside = () => {
             href="https://www.amazon.com/VIVOSUN-Heavy-Duty-Polyester-Trellis-Netting/dp/B00P7RUI3U/ref=sr_1_4?"
             className="link-light"
             target="_blank"
+            rel="noreferrer"
           >
             Flower Netting
           </a>
@@ -57,6 +61,7 @@ const Aside = () => {
             className="link-light"
             href="https://www.amazon.com/Fiskars-362050-1001-StaySharp-Mower-Black/dp/B01N7K4BNX?th=1"
             target="_blank"
+            rel="noreferrer"
           >
             Reel Mower
           </a>
@@ -71,6 +76,7 @@ const Aside = () => {
             href="https://thegardenersworkshop.com"
             className="link-light"
             target="_blank"
+            rel="noreferrer"
           >
             The Gardener's Workshop
           </a>
@@ -80,6 +86,7 @@ const Aside = () => {
             href="https://extension.usu.edu/yardandgarden/"
             target="_blank"
             className="link-light"
+            rel="noreferrer"
           >
             USU Extension
           </a>
@@ -89,6 +96,7 @@ const Aside = () => {
             href="https://localscapes.com"
             className="link-light"
             target="_blank"
+            rel="noreferrer"
           >
             Localscapes
           </a>
