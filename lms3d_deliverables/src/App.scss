@@ -1,0 +1,145 @@
+body {
+  background-color: rgb(22, 48, 33);
+  background-image: url('../public/images/vertical-leaves.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  --svg-size: 3rem;
+}
+
+.title-pane svg {
+  width: var(--svg-size);
+  height: var(--svg-size);
+}
+
+@media (min-width: 768px) {
+  body {
+    --svg-size: 3.5rem;
+  }
+}
+
+@media (min-width: 992px) {
+  body {
+    background-image: url('../public/images/leaves.jpg');
+    --svg-size: 4rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    --svg-size: 4.5rem;
+  }
+}
+
+.dark-transparent {
+  background-color: rgba(26, 46, 40, 0.6);
+}
+
+.polaroid {
+  transform: rotate(-1deg) translateY(-10px);
+  font-family: 'Caveat', cursive;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  box-shadow: 2px 2px 5px 0px rgba(22, 48, 33, 0.3);
+}
+
+.polaroid-caption {
+  height: 3.4rem;
+}
+
+aside ul,
+footer ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+aside ul a,
+footer ul a {
+  text-decoration: none;
+}
+
+#reset-button {
+  box-shadow: 2px 2px 5px 0px rgba(5, 6, 5, 0.6);
+}
+
+.popover {
+  box-shadow: 2px 2px 5px 0px rgba(22, 48, 33, 0.3);
+}
+
+.popover-header {
+  display: none;
+}
+
+.popover ul {
+  list-style: none;
+  padding: 0;
+}
+
+.table-header {
+  cursor: pointer;
+}
+
+.sort-icons {
+  display: inline-flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.sort-icons img {
+  padding: 0;
+  margin: 0;
+}
+
+/* animation */
+
+.title-left {
+  transform: translateX(calc(var(--svg-size) / 2));
+  animation: move-left 1.5s ease-in-out 1s 1 normal forwards;
+}
+
+.title-right {
+  transform: translateX(calc(var(--svg-size) / -2));
+  animation: move-right 1.5s ease-in-out 1s 1 normal forwards;
+}
+
+.title-flower {
+  transform-origin: center;
+  opacity: 0;
+  animation: show-flower 2s ease-in-out 1s 1 normal forwards;
+}
+
+@keyframes move-left {
+  0% {
+    transform: translateX(calc(var(--svg-size) / 2));
+  }
+  50% {
+    transform: translateX(-0.5rem);
+  }
+  100% {
+    transform: translateX(0rem);
+  }
+}
+
+@keyframes move-right {
+  0% {
+    transform: translateX(calc(var(--svg-size) / -2));
+  }
+  50% {
+    transform: translateX(0.5rem);
+  }
+  100% {
+    transform: translateX(0rem);
+  }
+}
+
+@keyframes show-flower {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.8;
+    transform: scale(120%);
+  }
+  100% {
+    opacity: 1;
+  }
+}

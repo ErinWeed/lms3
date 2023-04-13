@@ -1,0 +1,12 @@
+//customize colors
+$primary: #0c4131;
+$light: rgb(250, 250, 231);
+$dark: #1c2729;
+
+$popover-bg: $light;
+$popover-border-radius: 5%;
+$popover-body-color: $primary;
+$popover-font-size: 1rem;
+$popover-box-shadow: 2px 2px 5px 0px rgba(22, 48, 33, 0.7);
+//import bootstrap
+@import '../node_modules/bootstrap/scss/bootstrap.scss';

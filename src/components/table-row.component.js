@@ -22,7 +22,7 @@ const TableRow = ({ zone, onHandleDelete, onHandleEdit }) => {
 
   return (
     <OverlayTrigger
-      trigger="click"
+      trigger="hover"
       overlay={popover}
       delay={{ show: 500, hide: 100 }}
     >

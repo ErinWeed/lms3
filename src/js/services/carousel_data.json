@@ -53,6 +53,36 @@
       "picture": "images/carousel/lisianthusprogress.jpg",
       "alt": "It's the biggest lisianthus plant I have, but it's still smaller than a pencil eraser.",
       "caption": "Mar 3: Five weeks later... lisianthus grow so slowly!"
+    },
+    {
+      "id": 10,
+      "picture": "images/carousel/snow.jpg",
+      "alt": "Nearly 2 feet of snow on a patio table.",
+      "caption": "April 5: So much snow!"
+    },
+    {
+      "id": 11,
+      "picture": "images/carousel/fish.jpg",
+      "alt": "A bunch of fairly large goldfish at the surface of a pond.",
+      "caption": "April 10: First feeding of the season."
+    },
+    {
+      "id": 12,
+      "picture": "images/carousel/allplants.jpg",
+      "alt": "Plants growing under purple grow lights",
+      "caption": "April 11: These plants want to go outside."
+    },
+    {
+      "id": 13,
+      "picture": "images/carousel/soilblocks.jpg",
+      "alt": "A few plants growing in a tray.",
+      "caption": "April 11: Soil blocks make the healthiest plants"
+    },
+    {
+      "id": 14,
+      "picture": "images/carousel/dafodill.jpg",
+      "alt": "a yellow daffodil",
+      "caption": "April 10: First dafodill of the season."
     }
   ]
 }

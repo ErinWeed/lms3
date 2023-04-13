@@ -11,7 +11,6 @@ const Aside = () => {
       </h5>
       <Polaroid />
 
-      {/*end polaroid*/}
       <h5 className="lead text-center p-2 border-bottom pt-4">
         Favorite Products
       </h5>

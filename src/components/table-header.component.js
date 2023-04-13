@@ -1,5 +1,5 @@
 import TableHeaderColumn from './table-header-column.component';
-const TableHeader = ({ label, thClasses, sortCol, sortDir, onHandleSort }) => {
+const TableHeader = ({ thClasses, sortCol, sortDir, onHandleSort }) => {
   return (
     <tr>
       <TableHeaderColumn

@@ -11,6 +11,8 @@ const TableHeaderColumn = ({
   };
 
   const determineIcon = (direction) => {
+    console.log(colName);
+    if (colName === 'actions') return 0;
     return colName === sortCol && direction === sortDir ? 1 : 0.3;
   };
   return (
@@ -28,7 +30,6 @@ const TableHeaderColumn = ({
           src="images/caret-down-fill.svg"
           alt="sort descending"
           style={{ opacity: `${determineIcon('desc')}` }}
-          //   style={`opacity:${determineIcon('desc')}`}
         />
       </div>
     </th>
